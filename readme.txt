@@ -12,8 +12,10 @@ This plugin displays data recorded by your weather station. It connects to your 
 
 By following the tutorials on www.raspberryweather.com you can use your Raspberry Pi to create your own weather station. When the initial steps are completed,
 you can display the readings in a nice graph. It connects to the Wordpress database and draws a graph that contains temperature and humidity readings. The graph
-is customizable. You can decide if you want to display the temperature and humidity or just temperature or humidity. The graph displays the data from the date you
+is customizable. 
+You can decide if you want to display the temperature and humidity or just temperature or humidity. The graph displays the data from the date you
 want - today, yesterday or a specific date.
+
 If you just want to take a look at how this plugin looks, you can. It will display some dummy data to show you how everything looks like.
 
 
@@ -34,6 +36,8 @@ Same as above, drop me a line on my email. Or take a look at http://www.raspberr
 == Screenshots ==
 
 1. Graph for temperature reading
+
+2. Sample graph with dummy data
 
 == Changelog ==
 

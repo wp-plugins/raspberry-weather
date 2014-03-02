@@ -1,2 +1,41 @@
-This plugin displays data recorded by your weather station. It connects to your database and draws a nice line graph.
-If you do not have any data to display, it shows predefined sample values. In order to fully use this plugin, you need to complete the easy to follow tutorials.
+=== Raspberry Weather ===
+Tags: Raspberry Pi, Raspberry Weather, temperature, humidity
+Requires at least: 3.0.1
+Tested up to: 3.8.1
+Stable tag: 4.3
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This plugin displays data recorded by your weather station. It connects to your database and draws a nice line graph. 
+
+== Description ==
+
+By following the tutorials on www.raspberryweather.com you can use your Raspberry Pi to create your own weather station. When the initial steps are completed,
+you can display the readings in a nice graph. It connects to the Wordpress database and draws a graph that contains temperature and humidity readings. The graph
+is customizable. You can decide if you want to display the temperature and humidity or just temperature or humidity. The graph displays the data from the date you
+want - today, yesterday or a specific date.
+If you just want to take a look at how this plugin looks, you can. It will display some dummy data to show you how everything looks like.
+
+
+== Frequently Asked Questions ==
+
+= What do I need for this plugin? =
+
+You need a Raspberry Pi, temperature sensor and some spare time. More information is provided on www.raspberryweather.com.
+
+= Something is not working! =
+
+This is the first release, bugs are likely to be present. Drop me a line at peter@raspberryweather.com, I will do my best to fix it.
+
+= I need more information about this plugin =
+
+Same as above, drop me a line on my email. Or take a look at http://www.raspberryweather.com/raspberry-weather-graph/.
+
+== Screenshots ==
+
+1. Graph for temperature reading
+
+== Changelog ==
+
+= 1.0 =
+* Initial release

@@ -29,6 +29,10 @@ You need a Raspberry Pi, temperature sensor and some spare time. More informatio
 
 This is the first release, bugs are likely to be present. Drop me a line at peter@raspberryweather.com, I will do my best to fix it.
 
+= What caching plugin should I use? =
+
+To speed the loading time on your Raspberry Pi, you should use a caching plugin. The Raspberry Weather plugin works well with Quick Cache plugin.
+
 = I need more information about this plugin =
 
 Same as above, drop me a line on my email. Or take a look at http://www.raspberryweather.com/raspberry-weather-graph/.
@@ -36,6 +40,8 @@ Same as above, drop me a line on my email. Or take a look at http://www.raspberr
 == Screenshots ==
 
 1. Graph for temperature reading
+
+2. Sample graph with dummy data
 
 == Changelog ==
 

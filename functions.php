@@ -3,7 +3,7 @@
  * Plugin Name: Raspberry Weather
  * Plugin URI: www.raspberryweather.com
  * Description: Easily display temperatures and humidity taken by your Raspberry Pi.
- * Version: 1.0 
+ * Version: 1.1 
  * Author: Peter Kodermac
  * Author URI: http://www.kodermac.com
  * License: GPL2

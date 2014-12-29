@@ -1,7 +1,7 @@
 === Raspberry Weather ===
 Tags: Raspberry Pi, Raspberry Weather, temperature, humidity
 Requires at least: 3.0.1
-Tested up to: 3.8.1
+Tested up to: 4
 Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -10,7 +10,7 @@ This plugin displays data recorded by your weather station. It connects to your 
 
 == Description ==
 
-By following the tutorials on www.raspberryweather.com you can use your Raspberry Pi to create your own weather station. When the initial steps are completed,
+By following the tutorials on www.raspberryweather.com you can use your Raspberry Pi to create **your own weather station**. When the initial steps are completed,
 you can display the readings in a nice graph. It connects to the Wordpress database and draws a graph that contains temperature and humidity readings. The graph
 is customizable. 
 
@@ -21,7 +21,7 @@ If you just want to take a look at how this plugin looks, you can. It will displ
 
 == Installation ==
 
-1. Upload the package to /wp-content/plugins directory
+1. Upload the package to */wp-content/plugins directory*
 2. Activate the plugin through "Plugins" menu in Wordpress
 3. Create the graph by clicking the icon on kitchen sink
 4. Optionally modify the shortcode that is displayed

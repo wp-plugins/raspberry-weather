@@ -1,7 +1,7 @@
 === Raspberry Weather ===
 Tags: Raspberry Pi, Raspberry Weather, temperature, humidity
 Requires at least: 3.0.1
-Tested up to: 4
+Tested up to: 4.1
 Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -51,6 +51,9 @@ Same as above, drop me a line on my email. Or take a look at http://www.raspberr
 2. Sample graph with dummy data
 
 == Changelog ==
+
+= 1.1 =
+Fixed bug for negative values, thank you Simon P.
 
 = 1.0 =
 * Initial release

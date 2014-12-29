@@ -222,9 +222,13 @@ function visualization_line_chart_shortcode($atts, $content = null)
 	
 	
 	if (!empty($options['v_title']))
-		$graph_draw_js .= 'vAxis: {title: "' . $options['v_title'] . '", viewWindow: {min:0}}';
+	{
+		$resultSet = mysql_query("SELECT temperature FROM temperatures WHERE dateMeasured='" . $dateChosen . "' ORDER BY temmperature ASC LIMIT 1");//get lowest temperature  for chosen date
+		$graph_draw_js .= 'vAxis: {title: "' . $options['v_title'] . '", viewWindow: {min:".$resultSet."}}';
+	
+	}
 	else
-		$graph_draw_js .= 'vAxis: {viewWindow: {min:0}}';
+		$graph_draw_js .= 'vAxis: {viewWindow: {min:-2}}';
 	
 	
 	$graph_draw_js .= '};';

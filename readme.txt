@@ -52,6 +52,9 @@ Same as above, drop me a line on my email. Or take a look at http://www.raspberr
 
 == Changelog ==
 
+= 1.2 =
+Thanks to Stefan Mayer for removing deprecated functions and adding some improvements! Graph now works on newest PHP versions!
+
 = 1.1 =
 Fixed bug for negative values, thank you Simon P.
 
